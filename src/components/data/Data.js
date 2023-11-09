@@ -20,36 +20,31 @@ export const nav = [
     text: "contact",
     path: "/contact",
   },
-
-]
+];
 export const featured = [
   {
     cover: "../images/hero/h1.png",
     name: "ELECTRICITY ",
-   
   },
   {
     cover: "../images/hero/h2.png",
     name: "SIMCARD COMPANY",
-    
   },
   {
     cover: "../images/hero/h3.png",
     name: "BROADBAND",
-    
   },
   {
     cover: "../images/hero/h5.png",
     name: "BANK",
-    
   },
-  
+
   {
     cover: "../images/hero/h6.png",
     name: "many more",
     total: "coming soon ",
   },
-]
+];
 export const list = [
   {
     id: 1,
@@ -68,7 +63,6 @@ export const list = [
     category: "For Rent",
     price: "$1,750",
     type: "Apartment",
-    
   },
   {
     id: 3,
@@ -101,117 +95,148 @@ export const list = [
     id: 6,
     cover: "../images/list/p-6.png",
     name: "Banyon Tree Realty",
-    location: "Northway Dr APT 2B, Dallas,Texas"  ,
+    location: "Northway Dr APT 2B, Dallas,Texas",
     category: "For Rent",
     price: "$1,142",
     type: "Apartment",
   },
-]
-export const awards = [
- 
- 
-]
+];
+export const awards = [];
 export const location = [
   {
     id: 1,
     name: " Denton, Texas",
-    
+
     Apartments: "10+ Apartments",
-   
+
     cover: "./images/location/city-1.png",
   },
   {
     id: 2,
     name: "Dallas, Texas",
-    
+
     Apartments: "20+ Apartments",
-    
+
     cover: "./images/location/city-2.png",
   },
   {
     id: 3,
     name: "Prairie View, Texas",
-    
+
     Apartments: " 30+ Apartments",
-    
+
     cover: "./images/location/city-3.png",
   },
   {
     id: 4,
     name: " Richardson, Texas",
-    
+
     Apartments: " 30+ Apartments",
-    
+
     cover: "./images/location/city-4.png",
   },
   {
     id: 5,
     name: "Austin, Texas",
-   
+
     Apartments: " 10+ Apartments",
-    
+
     cover: "./images/location/city-5.png",
   },
   {
     id: 6,
     name: "Houston, Texas",
-    
+
     Apartments: " 10+ Apartments",
-    
+
     cover: "./images/location/city-6.png",
   },
-]
+];
 export const team = [
   {
     list: "50",
     cover: "../images/customer/team-1.jpg",
     address: "Texas, Usa",
     name: " Rating : 5/5",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    icon: [
+      <i class="fa-brands fa-facebook-f"></i>,
+      <i class="fa-brands fa-linkedin"></i>,
+      <i class="fa-brands fa-twitter"></i>,
+      <i class="fa-brands fa-instagram"></i>,
+    ],
   },
   {
     list: "70",
     cover: "../images/customer/team-2.jpg",
     address: "Texas, Usa",
-    name: "  Rating : 5/5   " ,
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    name: "  Rating : 5/5   ",
+    icon: [
+      <i class="fa-brands fa-facebook-f"></i>,
+      <i class="fa-brands fa-linkedin"></i>,
+      <i class="fa-brands fa-twitter"></i>,
+      <i class="fa-brands fa-instagram"></i>,
+    ],
   },
   {
     list: "80",
     cover: "../images/customer/team-3.jpg",
     address: "Denever, USA",
     name: "Rating : 5/5",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    icon: [
+      <i class="fa-brands fa-facebook-f"></i>,
+      <i class="fa-brands fa-linkedin"></i>,
+      <i class="fa-brands fa-twitter"></i>,
+      <i class="fa-brands fa-instagram"></i>,
+    ],
   },
   {
     list: "51",
     cover: "../images/customer/team-4.jpg",
     address: "Texas, Usa",
     name: "Rating : 5/5",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    icon: [
+      <i class="fa-brands fa-facebook-f"></i>,
+      <i class="fa-brands fa-linkedin"></i>,
+      <i class="fa-brands fa-twitter"></i>,
+      <i class="fa-brands fa-instagram"></i>,
+    ],
   },
   {
     list: "42",
     cover: "../images/customer/team-5.jpg",
     address: "Montreal, USA",
     name: "Rating : 5/5",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    icon: [
+      <i class="fa-brands fa-facebook-f"></i>,
+      <i class="fa-brands fa-linkedin"></i>,
+      <i class="fa-brands fa-twitter"></i>,
+      <i class="fa-brands fa-instagram"></i>,
+    ],
   },
   {
     list: "38",
     cover: "../images/customer/team-5.jpg",
     address: "Montreal, USA",
     name: "Rating : 5/5",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+    icon: [
+      <i class="fa-brands fa-facebook-f"></i>,
+      <i class="fa-brands fa-linkedin"></i>,
+      <i class="fa-brands fa-twitter"></i>,
+      <i class="fa-brands fa-instagram"></i>,
+    ],
   },
-]
-export const price = [
-  
-]
+];
+export const price = [];
 export const footer = [
   {
     title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }],
+    text: [
+      { list: "Home Page" },
+      { list: "About Page" },
+      { list: "Service Page" },
+      { list: "Property Page" },
+      { list: "Contact Page" },
+    ],
   },
   {
     title: "ALL SECTIONS",
@@ -219,6 +244,12 @@ export const footer = [
   },
   {
     title: "COMPANY",
-    text: [{ list: "About" }, { list: "Search" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }],
+    text: [
+      { list: "About" },
+      { list: "Search" },
+      { list: "Pricing" },
+      { list: "Affiliate" },
+      { list: "Login" },
+    ],
   },
-]
+];

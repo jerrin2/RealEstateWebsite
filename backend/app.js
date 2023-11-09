@@ -9,18 +9,18 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors());
+app.use(cors()); 
 
 mongoose
   .connect(
-    'mongodb+srv://jerrinjames2002:jerrin2002@cluster0.a01ixli.mongodb.net/',
+    "mongodb+srv://imranpathan8202:imran8202@cluster0.xzvznzp.mongodb.net/?retryWrites=true&w=majority",
     {
       useUnifiedTopology: true,
       useNewUrlParser: true,
-    },
+    }
   )
   .then(() => {
-    console.log('Connected to database');
+    console.log("Connected to database");
   })
   .catch((err) => {
     console.log(err.message);
