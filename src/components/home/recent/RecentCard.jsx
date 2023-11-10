@@ -8,7 +8,7 @@ export default function RecentCard({ location }) {
   useEffect(() => {
     async function getRooms() {
       let response;
-      if (location === "") {
+      if (location === "" || location === undefined) {
         response = await fetch("http://localhost:4000/api/rooms");
       } else {
         response = await fetch(`http://localhost:4000/api/room/${location}`);
