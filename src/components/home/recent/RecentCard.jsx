@@ -10,9 +10,9 @@ export default function RecentCard({ location }) {
       let response;
       if (location === "" || location===undefined) {
 
-        response = await fetch("http://localhost:4000/api/rooms");
+        response = await fetch("https://rentupservice.onrender.com/api/rooms");
       } else {
-        response = await fetch(`http://localhost:4000/api/room/${location}`);
+        response = await fetch(`https://rentupservice.onrender.com/api/room/${location}`);
       }
       const data = await response.json();
       setList(data);
