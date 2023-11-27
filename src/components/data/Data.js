@@ -33,7 +33,7 @@ export const featured = [
     name: "SIMCARD COMPANY",
   },
   {
-    link:"electricity",
+    link:"broadband",
     cover: "../images/hero/h3.png",
     name: "BROADBAND",
   },
