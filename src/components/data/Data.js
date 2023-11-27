@@ -28,7 +28,7 @@ export const featured = [
     name: "ELECTRICITY ",
   },
   {
-    link:"electricity",
+    link:"simcard",
     cover: "../images/hero/h2.png",
     name: "SIMCARD COMPANY",
   },
@@ -38,7 +38,7 @@ export const featured = [
     name: "BROADBAND",
   },
   {
-    link:"electricity",
+    link:"bank",
     cover: "../images/hero/h5.png",
     name: "BANK",
   },

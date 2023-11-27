@@ -9,6 +9,8 @@ import Blog from "../blog/Blog";
 import Services from "../services/Services";
 import Contact from "../contact/Contact";
 import electricity from "../home/featured/electricity/electricity.jsx";
+import bank from "../home/featured/bank/bank.jsx";
+import simcard from "../home/featured/simcard/simcard.jsx";
 const Pages = () => {
   return (
     <>
@@ -23,6 +25,9 @@ const Pages = () => {
           <Route exact path="/login" component={LoginSetup} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/electricity" component={electricity} />
+          <Route exact path="/bank" component={bank} />
+          <Route exact path="/simcard" component={simcard} />
+        
 
         </Switch>
         <Footer />
