@@ -6,9 +6,9 @@ const broadband = () => {
   const data = [
     { company: 'AT&T', plan: '300 - 5000 Mbps', price: '$55 - $25 per Month' },
     { company: 'Spectrum', plan: '100 - 1,000 Mbps', price: '$30 - $90 per Month' },
-    { company: 'Astound', plan: '100 - 1,200 Mbps', price: '$20  $80 per Month' },
-    { company: 'Verizon', plan: '300 Mbps', price: '$24.99  $49 per Month' },
-    { company: 'Xfinity', plan: '75 - 1,200 Mbps', price: '$20  $80' },
+    { company: 'Astound', plan: '100 - 1,200 Mbps', price: '$20 - $80 per Month' },
+    { company: 'Verizon', plan: '300 Mbps', price: '$24.99 - $49 per Month' },
+    { company: 'Xfinity', plan: '75 - 1,200 Mbps', price: '$20 - $80' },
     { company: 'T-Mobile 5G Home Internet', plan: '72  245 Mbps', price: '$50.00' },
   ];
 
