@@ -13,6 +13,8 @@ const broadband = () => {
   ];
 
   return (
+    <div>
+    <h2>broadband Plans</h2>
     <table style={{ borderCollapse: 'collapse', width: '100%' }}>
       <thead>
         <tr style={{ border: '1px solid black' }}>
@@ -31,6 +33,7 @@ const broadband = () => {
         ))}
       </tbody>
     </table>
+    </div>
   );
 };
 
